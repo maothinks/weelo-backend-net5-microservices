@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4b4a3a0f-c821-485f-a8c9-4381d6732e4b": {
+      "ProjectGuid": "4b4a3a0f-c821-485f-a8c9-4381d6732e4b",
+      "DisplayName": "Weelo.Microservices.Properties.Domain",
+      "ColorIndex": 0
+    },
+    "754b6ae3-7a67-47fd-adfb-650a437615fc": {
+      "ProjectGuid": "754b6ae3-7a67-47fd-adfb-650a437615fc",
+      "DisplayName": "Weelo.Microservices.Properties.Application",
+      "ColorIndex": 1
+    },
+    "44f2af68-4124-4007-83b2-3f6b7c616780": {
+      "ProjectGuid": "44f2af68-4124-4007-83b2-3f6b7c616780",
+      "DisplayName": "Weelo.Microservices.Properties.Infrastructure.Data",
+      "ColorIndex": 2
+    },
+    "92b19bff-a723-4431-b5a8-b0e11acbb8d5": {
+      "ProjectGuid": "92b19bff-a723-4431-b5a8-b0e11acbb8d5",
+      "DisplayName": "Weelo.Microservices.Properties.Infrastructure.API",
+      "ColorIndex": 3
+    },
+    "ff5a5d69-ef50-46f0-aa6d-da421f1da966": {
+      "ProjectGuid": "ff5a5d69-ef50-46f0-aa6d-da421f1da966",
+      "DisplayName": "Weelo.Microservices.Users.Domain",
+      "ColorIndex": 4
+    },
+    "5be85a0d-fda5-48bb-a460-443c86a65497": {
+      "ProjectGuid": "5be85a0d-fda5-48bb-a460-443c86a65497",
+      "DisplayName": "Weelo.Microservices.Users.Application",
+      "ColorIndex": 5
+    },
+    "78223d5e-94f5-4212-9941-9e77415ce954": {
+      "ProjectGuid": "78223d5e-94f5-4212-9941-9e77415ce954",
+      "DisplayName": "Weelo.Microservices.Users.Infrastructure.Data",
+      "ColorIndex": 6
+    },
+    "7c8314f3-f6be-4d27-8d0e-63db73285944": {
+      "ProjectGuid": "7c8314f3-f6be-4d27-8d0e-63db73285944",
+      "DisplayName": "Weelo.Microservices.Users.Infrastructure.REST",
+      "ColorIndex": 7
+    },
+    "fa04ad43-6729-4010-87bd-ce4456ef0e93": {
+      "ProjectGuid": "fa04ad43-6729-4010-87bd-ce4456ef0e93",
+      "DisplayName": "Weelo.Microservices.APIGateWay",
+      "ColorIndex": 8
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "d2f08771-4ef5-4307-923b-d46f13ff9443": {
+      "ProjectGuid": "d2f08771-4ef5-4307-923b-d46f13ff9443",
+      "DisplayName": "TestGateWay",
+      "ColorIndex": 9
+    },
+    "15206285-258d-43a8-9bbd-647c5bd1a02c": {
+      "ProjectGuid": "15206285-258d-43a8-9bbd-647c5bd1a02c",
+      "DisplayName": "WebApi",
+      "ColorIndex": 10
+    },
+    "2102e747-ef29-4725-8ffc-3d8665122744": {
+      "ProjectGuid": "2102e747-ef29-4725-8ffc-3d8665122744",
+      "DisplayName": "Weelo.Microservices.AuthUsers.API",
+      "ColorIndex": 11
+    },
+    "d3d80e63-9fe0-4cb6-93b8-a0bd26f4ec79": {
+      "ProjectGuid": "d3d80e63-9fe0-4cb6-93b8-a0bd26f4ec79",
+      "DisplayName": "Weelo.Microservices.AuthUsers.API",
+      "ColorIndex": 12
+    },
+    "a20a794f-ec14-4f7e-a905-ced74f19a345": {
+      "ProjectGuid": "a20a794f-ec14-4f7e-a905-ced74f19a345",
+      "DisplayName": "Weelo.Microservices.Properties.Infrastructure.API",
+      "ColorIndex": 13
+    },
+    "970cec71-330f-46c6-b7d9-214d2ccad7ff": {
+      "ProjectGuid": "970cec71-330f-46c6-b7d9-214d2ccad7ff",
+      "DisplayName": "Weelo.Microservices.AuthAndUsers.API",
+      "ColorIndex": 14
+    },
+    "e681a8ac-149c-40f2-9b35-f244a58c5274": {
+      "ProjectGuid": "e681a8ac-149c-40f2-9b35-f244a58c5274",
+      "DisplayName": "Weelo.Microservices.Files_Management.Application",
+      "ColorIndex": 15
+    },
+    "5b18522c-f9a1-4b20-8753-259ae9aa1fa8": {
+      "ProjectGuid": "5b18522c-f9a1-4b20-8753-259ae9aa1fa8",
+      "DisplayName": "Weelo.Microservices.Files_Management.Domain",
+      "ColorIndex": 0
+    },
+    "ba329688-645d-42d4-84d5-17115caf2c1a": {
+      "ProjectGuid": "ba329688-645d-42d4-84d5-17115caf2c1a",
+      "DisplayName": "Weelo.Microservices.Files_Management.Infrastructure.Data",
+      "ColorIndex": 1
+    },
+    "208754ea-1df5-413c-8c1e-9a1d19762b4a": {
+      "ProjectGuid": "208754ea-1df5-413c-8c1e-9a1d19762b4a",
+      "DisplayName": "Weelo.Microservices.Files_Management.Infrastructure.API",
+      "ColorIndex": 2
+    },
+    "46e74766-1897-4eb9-a2f0-247e3a66d4ac": {
+      "ProjectGuid": "46e74766-1897-4eb9-a2f0-247e3a66d4ac",
+      "DisplayName": "Weelo.Microservices.Notifications.API",
+      "ColorIndex": 3
+    },
+    "4a4cf91b-0511-43bc-87ea-70baab4c99cb": {
+      "ProjectGuid": "4a4cf91b-0511-43bc-87ea-70baab4c99cb",
+      "DisplayName": "TestsCalls",
+      "ColorIndex": 4
+    },
+    "e0b11c05-1bcf-4db9-9283-985326055610": {
+      "ProjectGuid": "e0b11c05-1bcf-4db9-9283-985326055610",
+      "DisplayName": "SignalClientConsole",
+      "ColorIndex": 5
+    },
+    "1be103c7-21fa-4b0c-8f51-cc33e8260109": {
+      "ProjectGuid": "1be103c7-21fa-4b0c-8f51-cc33e8260109",
+      "DisplayName": "Weelo.Microservices.FileStorage.API",
+      "ColorIndex": 6
+    }
+  },
+  "NextColorIndex": 7
+}
