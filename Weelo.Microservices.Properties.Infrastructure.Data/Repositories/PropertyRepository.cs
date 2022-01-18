@@ -50,12 +50,31 @@ namespace Weelo.Microservices.Properties.Infrastructure.Data.Repositories
 
         public async Task<IList<Property>> GetAllAsync(ParamsDTO paramsDto)
         {
+            //var filterText = await db.Properties.Where
+            //    (x => (!string.IsNullOrEmpty(paramsDto.Name)) ? x.Name.Contains(paramsDto.Name) : true
+            //).ToListAsync();
+
+            //var filterPrice = filterText.Where
+            //    (x => (x.Price <= paramsDto.MaxPrice && x.Price >= paramsDto.MinPrice)
+            //).ToList();
+
+            //var filterYear = filterPrice.Where
+            //    (x => x.Year <= paramsDto.MaxYear && x.Year >= paramsDto.MinYear).ToList();
+
+            if (!string.IsNullOrEmpty(paramsDto.Name)){
+                return await db.Properties.Where(x =>
+                    x.Name.Contains(paramsDto.Name) &&
+                    (x.Price <= paramsDto.MaxPrice && x.Price >= paramsDto.MinPrice) &&
+                    (x.Year <= paramsDto.MaxYear && x.Year >= paramsDto.MinYear)
+                )
+                    .Skip((paramsDto.Page - 1) * paramsDto.ItemsPerPage)
+                    .Take(paramsDto.ItemsPerPage)
+                    .ToListAsync();
+            }
+
             return await db.Properties.Where(x =>
-                (!string.IsNullOrEmpty(paramsDto.Name)) ? x.Name.Contains(paramsDto.Name) : true
-                && x.Price <= paramsDto.MaxPrice
-                && x.Year <= paramsDto.MaxYear
-                && x.Price >= paramsDto.MinPrice
-                && x.Year >= paramsDto.MinYear
+                (x.Price <= paramsDto.MaxPrice && x.Price >= paramsDto.MinPrice) &&
+                (x.Year <= paramsDto.MaxYear && x.Year >= paramsDto.MinYear)
             )
                 .Skip((paramsDto.Page - 1) * paramsDto.ItemsPerPage)
                 .Take(paramsDto.ItemsPerPage)
