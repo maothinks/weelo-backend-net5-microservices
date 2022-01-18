@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9HNDGjC+m0DTWhARsL9JXWZ3jHYF4z/xfcyhy6Sp2EwkL7z79ZQm/FngQj4cMBUbfh0EBKAVmwMNYPhSmWMx0w==",
+  "dgSpecHash": "m46Fru1rPxIJjj1YYG0uBT8oD/aZY+NVMmQ6tMITEfyKKjdLzZ+ZFnFO5wU7/sZ+Dojurgrgi6qjMMhEIVq4Yg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Desktop\\Weelo\\Microservices\\Weelo.Microservices.Properties.Application\\Weelo.Microservices.Properties.Application.csproj",
+  "projectFilePath": "C:\\Users\\User\\Desktop\\WeeloGit\\weelo-backend-net5-microservices\\Weelo.Microservices.Properties.Application\\Weelo.Microservices.Properties.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

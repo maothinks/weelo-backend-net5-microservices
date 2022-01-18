@@ -5963,11 +5963,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Weelo\\Microservices\\Weelo.Microservices.AuthAndUsers.API\\Weelo.Microservices.AuthAndUsers.API.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\WeeloGit\\weelo-backend-net5-microservices\\Weelo.Microservices.AuthAndUsers.API\\Weelo.Microservices.AuthAndUsers.API.csproj",
       "projectName": "Weelo.Microservices.AuthAndUsers.API",
-      "projectPath": "C:\\Users\\User\\Desktop\\Weelo\\Microservices\\Weelo.Microservices.AuthAndUsers.API\\Weelo.Microservices.AuthAndUsers.API.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\WeeloGit\\weelo-backend-net5-microservices\\Weelo.Microservices.AuthAndUsers.API\\Weelo.Microservices.AuthAndUsers.API.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Weelo\\Microservices\\Weelo.Microservices.AuthAndUsers.API\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\WeeloGit\\weelo-backend-net5-microservices\\Weelo.Microservices.AuthAndUsers.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

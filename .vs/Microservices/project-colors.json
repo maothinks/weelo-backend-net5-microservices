@@ -120,7 +120,47 @@
       "ProjectGuid": "1be103c7-21fa-4b0c-8f51-cc33e8260109",
       "DisplayName": "Weelo.Microservices.FileStorage.API",
       "ColorIndex": 6
+    },
+    "6e0c1df0-0d1a-4fc3-8d11-8848a445193c": {
+      "ProjectGuid": "6e0c1df0-0d1a-4fc3-8d11-8848a445193c",
+      "DisplayName": "Weelo.Microservices.Notifications.RabbitMQ_Producer_API",
+      "ColorIndex": 7
+    },
+    "0768db18-20ce-40c2-8cc6-c3af7034def3": {
+      "ProjectGuid": "0768db18-20ce-40c2-8cc6-c3af7034def3",
+      "DisplayName": "Weelo.Microservices.Notifications.SignalrAPI",
+      "ColorIndex": 8
+    },
+    "d3f3c38e-f7ba-45ab-90e3-60f667b02906": {
+      "ProjectGuid": "d3f3c38e-f7ba-45ab-90e3-60f667b02906",
+      "DisplayName": "Weelo.Microservices.Properties.Infrastructure.APITests",
+      "ColorIndex": 9
+    },
+    "0ebc9bc9-285b-4ad3-9b9f-5bcb3a4db34a": {
+      "ProjectGuid": "0ebc9bc9-285b-4ad3-9b9f-5bcb3a4db34a",
+      "DisplayName": "Weelo.Microservices.Notifications.RabbitMQ_Producer_APITests",
+      "ColorIndex": 10
+    },
+    "eb14594d-403c-48be-be5d-1e2d8d8fef7c": {
+      "ProjectGuid": "eb14594d-403c-48be-be5d-1e2d8d8fef7c",
+      "DisplayName": "Weelo.Microservices.Notifications.SignalrAPITests",
+      "ColorIndex": 11
+    },
+    "9cf7e8c6-2353-47ca-b6aa-de008aa63dcc": {
+      "ProjectGuid": "9cf7e8c6-2353-47ca-b6aa-de008aa63dcc",
+      "DisplayName": "Weelo.Microservices.Notifications.SignalrAPITests",
+      "ColorIndex": 12
+    },
+    "523fc5b2-f4b2-417b-ba84-4a8e4da53d26": {
+      "ProjectGuid": "523fc5b2-f4b2-417b-ba84-4a8e4da53d26",
+      "DisplayName": "Weelo.Microservices.FileStorage.APITests",
+      "ColorIndex": 13
+    },
+    "537c607e-c1f3-457b-83dc-763eb2ce0295": {
+      "ProjectGuid": "537c607e-c1f3-457b-83dc-763eb2ce0295",
+      "DisplayName": "Weelo.Microservices.AuthAndUsers.APITests",
+      "ColorIndex": 14
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 15
 }

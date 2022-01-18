@@ -5,10 +5,14 @@ using Weelo.Microservices.Properties.Infrastructure.Data.Configs;
 
 namespace Weelo.Microservices.Properties.Infrastructure.Data.Contexts
 {
+    /// <summary>
+    /// Use the Database context including the tables
+    /// </summary>
     public class PropertyContext : DbContext
     {
         public DbSet<Property> Properties { get; set; }
         public DbSet<PropertyImage> PropertyImages { get; set; }
+        public DbSet<PropertyView> PropertyViews { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {

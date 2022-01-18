@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Weelo\\Microservices\\Weelo.Microservices.APIGateWay\\Weelo.Microservices.APIGateWay.csproj": {}
+    "C:\\Users\\User\\Desktop\\WeeloGit\\weelo-backend-net5-microservices\\Weelo.Microservices.APIGateWay\\Weelo.Microservices.APIGateWay.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Weelo\\Microservices\\Weelo.Microservices.APIGateWay\\Weelo.Microservices.APIGateWay.csproj": {
+    "C:\\Users\\User\\Desktop\\WeeloGit\\weelo-backend-net5-microservices\\Weelo.Microservices.APIGateWay\\Weelo.Microservices.APIGateWay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Weelo\\Microservices\\Weelo.Microservices.APIGateWay\\Weelo.Microservices.APIGateWay.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\WeeloGit\\weelo-backend-net5-microservices\\Weelo.Microservices.APIGateWay\\Weelo.Microservices.APIGateWay.csproj",
         "projectName": "Weelo.Microservices.APIGateWay",
-        "projectPath": "C:\\Users\\User\\Desktop\\Weelo\\Microservices\\Weelo.Microservices.APIGateWay\\Weelo.Microservices.APIGateWay.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\WeeloGit\\weelo-backend-net5-microservices\\Weelo.Microservices.APIGateWay\\Weelo.Microservices.APIGateWay.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Weelo\\Microservices\\Weelo.Microservices.APIGateWay\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\WeeloGit\\weelo-backend-net5-microservices\\Weelo.Microservices.APIGateWay\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

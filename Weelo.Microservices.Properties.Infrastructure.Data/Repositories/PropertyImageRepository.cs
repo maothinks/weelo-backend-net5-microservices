@@ -10,13 +10,17 @@ using Weelo.Microservices.Properties.Infrastructure.Data.Contexts;
 
 namespace Weelo.Microservices.Properties.Infrastructure.Data.Repositories
 {
+    /// <summary>
+    /// Implements the CRUD operations for Property Image
+    /// </summary>
     public class PropertyImageRepository : IBaseRepository<ParamsDTO, PaginationMetadataDTO, PropertyImage, Guid>
     {
         private readonly PropertyContext db;
 
-        public PropertyImageRepository(PropertyContext _db)
+        public PropertyImageRepository()
         {
-            db = _db;
+            //db = _db;
+            db = new PropertyContext();
         }
         public async Task<PropertyImage> AddAsync(PropertyImage entity)
         {

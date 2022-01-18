@@ -9,6 +9,9 @@ using Weelo.Microservices.Properties.Domain.Interfaces.Repositories;
 
 namespace Weelo.Microservices.Properties.Application.Services
 {
+    /// <summary>
+    /// Service to process data with user cases and persist it in a repository
+    /// </summary>
     public class PropertyService : IBaseService<ParamsDTO, PaginationMetadataDTO, Property, Guid>
     {
         private readonly IBaseRepository<ParamsDTO, PaginationMetadataDTO, Property, Guid> propertyRepository;
@@ -32,10 +35,10 @@ namespace Weelo.Microservices.Properties.Application.Services
             if (entity == null)
                 throw new ArgumentNullException("The 'Property' is required to edit");
 
-            await propertyRepository.EditAsync(entity);
+            bool result = await propertyRepository.EditAsync(entity);
             await propertyRepository.saveAllChangesAsync();
 
-            return true;
+            return result;
         }
 
         public async Task<IList<Property>> GetAllAsync(ParamsDTO paramsDto)
@@ -59,6 +62,11 @@ namespace Weelo.Microservices.Properties.Application.Services
             await propertyRepository.saveAllChangesAsync();
 
             return true;
+        }
+
+        public Task<IList<Property>> GetAllByParentIdAsync(Guid entityId)
+        {
+            throw new NotImplementedException();
         }
     }
 }

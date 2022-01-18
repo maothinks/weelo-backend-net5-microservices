@@ -9,6 +9,9 @@ using Weelo.Microservices.Properties.Domain;
 
 namespace Weelo.Microservices.Properties.Infrastructure.Data.Configs
 {
+    /// <summary>
+    /// Define a new Property Images table in the Database
+    /// </summary>
     class PropertyImageConfig : IEntityTypeConfiguration<PropertyImage>
     {
         public void Configure(EntityTypeBuilder<PropertyImage> builder)

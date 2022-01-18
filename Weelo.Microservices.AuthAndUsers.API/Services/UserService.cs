@@ -14,7 +14,7 @@ namespace Weelo.Microservices.AuthAndUsers.API.Services
         AuthenticateResponse Authenticate(AuthenticateRequest model);
         IEnumerable<User> GetAll();
         User GetById(int id);
-        void Register(RegisterRequest model);
+        string Register(RegisterRequest model);
         void Update(int id, UpdateRequest model);
         void Delete(int id);
     }
@@ -41,7 +41,7 @@ namespace Weelo.Microservices.AuthAndUsers.API.Services
 
             // validate
             if (user == null || !BCryptNet.Verify(model.Password, user.PasswordHash))
-                throw new AppException("Username or password is incorrect");
+                return null;
 
             // authentication successful
             var response = _mapper.Map<AuthenticateResponse>(user);
@@ -59,11 +59,11 @@ namespace Weelo.Microservices.AuthAndUsers.API.Services
             return getUser(id);
         }
 
-        public void Register(RegisterRequest model)
+        public string Register(RegisterRequest model)
         {
             // validate
             if (_context.Users.Any(x => x.Username == model.Username))
-                throw new AppException("Username '" + model.Username + "' is already taken");
+                return "Username '" + model.Username + "' is already taken";
 
             // map model to new user object
             var user = _mapper.Map<User>(model);
@@ -74,6 +74,7 @@ namespace Weelo.Microservices.AuthAndUsers.API.Services
             // save user
             _context.Users.Add(user);
             _context.SaveChanges();
+            return "";
         }
 
         public void Update(int id, UpdateRequest model)

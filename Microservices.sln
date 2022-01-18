@@ -23,9 +23,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FileStorage_Microservice", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notifications_Microservice", "Notifications_Microservice", "{186786F3-4CF8-4903-958B-63FA44C1CD29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weelo.Microservices.Notifications.API", "Weelo.Microservices.Notifications.API\Weelo.Microservices.Notifications.API.csproj", "{46E74766-1897-4EB9-A2F0-247E3A66D4AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weelo.Microservices.FileStorage.API", "Weelo.Microservices.FileStorage.API\Weelo.Microservices.FileStorage.API.csproj", "{1BE103C7-21FA-4B0C-8F51-CC33E8260109}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weelo.Microservices.FileStorage.API", "Weelo.Microservices.FileStorage.API\Weelo.Microservices.FileStorage.API.csproj", "{1BE103C7-21FA-4B0C-8F51-CC33E8260109}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weelo.Microservices.Notifications.RabbitMQ_Producer_API", "Weelo.Microservices.Notifications.RabbitMQ_Producer_API\Weelo.Microservices.Notifications.RabbitMQ_Producer_API.csproj", "{6E0C1DF0-0D1A-4FC3-8D11-8848A445193C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weelo.Microservices.Notifications.SignalrAPI", "Weelo.Microservices.Notifications.SignalrAPI\Weelo.Microservices.Notifications.SignalrAPI.csproj", "{0768DB18-20CE-40C2-8CC6-C3AF7034DEF3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weelo.Microservices.Properties.Infrastructure.APITests", "Weelo.Microservices.Properties.Infrastructure.APITests\Weelo.Microservices.Properties.Infrastructure.APITests.csproj", "{D3F3C38E-F7BA-45AB-90E3-60F667B02906}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weelo.Microservices.Notifications.RabbitMQ_Producer_APITests", "Weelo.Microservices.Notifications.RabbitMQ_Producer_APITests\Weelo.Microservices.Notifications.RabbitMQ_Producer_APITests.csproj", "{0EBC9BC9-285B-4AD3-9B9F-5BCB3A4DB34A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weelo.Microservices.Notifications.SignalrAPITests", "Weelo.Microservices.Notifications.SignalrAPITests\Weelo.Microservices.Notifications.SignalrAPITests.csproj", "{9CF7E8C6-2353-47CA-B6AA-DE008AA63DCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weelo.Microservices.FileStorage.APITests", "Weelo.Microservices.FileStorage.APITests\Weelo.Microservices.FileStorage.APITests.csproj", "{523FC5B2-F4B2-417B-BA84-4A8E4DA53D26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weelo.Microservices.AuthAndUsers.APITests", "Weelo.Microservices.AuthAndUsers.APITests\Weelo.Microservices.AuthAndUsers.APITests.csproj", "{537C607E-C1F3-457B-83DC-763EB2CE0295}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,14 +69,38 @@ Global
 		{970CEC71-330F-46C6-B7D9-214D2CCAD7FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{970CEC71-330F-46C6-B7D9-214D2CCAD7FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{970CEC71-330F-46C6-B7D9-214D2CCAD7FF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{46E74766-1897-4EB9-A2F0-247E3A66D4AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{46E74766-1897-4EB9-A2F0-247E3A66D4AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{46E74766-1897-4EB9-A2F0-247E3A66D4AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{46E74766-1897-4EB9-A2F0-247E3A66D4AC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1BE103C7-21FA-4B0C-8F51-CC33E8260109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1BE103C7-21FA-4B0C-8F51-CC33E8260109}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BE103C7-21FA-4B0C-8F51-CC33E8260109}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BE103C7-21FA-4B0C-8F51-CC33E8260109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E0C1DF0-0D1A-4FC3-8D11-8848A445193C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E0C1DF0-0D1A-4FC3-8D11-8848A445193C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E0C1DF0-0D1A-4FC3-8D11-8848A445193C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E0C1DF0-0D1A-4FC3-8D11-8848A445193C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0768DB18-20CE-40C2-8CC6-C3AF7034DEF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0768DB18-20CE-40C2-8CC6-C3AF7034DEF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0768DB18-20CE-40C2-8CC6-C3AF7034DEF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0768DB18-20CE-40C2-8CC6-C3AF7034DEF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3F3C38E-F7BA-45AB-90E3-60F667B02906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F3C38E-F7BA-45AB-90E3-60F667B02906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F3C38E-F7BA-45AB-90E3-60F667B02906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F3C38E-F7BA-45AB-90E3-60F667B02906}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EBC9BC9-285B-4AD3-9B9F-5BCB3A4DB34A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EBC9BC9-285B-4AD3-9B9F-5BCB3A4DB34A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EBC9BC9-285B-4AD3-9B9F-5BCB3A4DB34A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EBC9BC9-285B-4AD3-9B9F-5BCB3A4DB34A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CF7E8C6-2353-47CA-B6AA-DE008AA63DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF7E8C6-2353-47CA-B6AA-DE008AA63DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF7E8C6-2353-47CA-B6AA-DE008AA63DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF7E8C6-2353-47CA-B6AA-DE008AA63DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{523FC5B2-F4B2-417B-BA84-4A8E4DA53D26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{523FC5B2-F4B2-417B-BA84-4A8E4DA53D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{523FC5B2-F4B2-417B-BA84-4A8E4DA53D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{523FC5B2-F4B2-417B-BA84-4A8E4DA53D26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{537C607E-C1F3-457B-83DC-763EB2CE0295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{537C607E-C1F3-457B-83DC-763EB2CE0295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{537C607E-C1F3-457B-83DC-763EB2CE0295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{537C607E-C1F3-457B-83DC-763EB2CE0295}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,8 +111,14 @@ Global
 		{44F2AF68-4124-4007-83B2-3F6B7C616780} = {82910032-BE11-45AD-9ADB-5907A40E952A}
 		{A20A794F-EC14-4F7E-A905-CED74F19A345} = {82910032-BE11-45AD-9ADB-5907A40E952A}
 		{970CEC71-330F-46C6-B7D9-214D2CCAD7FF} = {0F1714F3-5FE8-4765-9FC4-553DA43D752F}
-		{46E74766-1897-4EB9-A2F0-247E3A66D4AC} = {186786F3-4CF8-4903-958B-63FA44C1CD29}
 		{1BE103C7-21FA-4B0C-8F51-CC33E8260109} = {8B52A28A-5696-4140-81A0-B1BAAD25F14C}
+		{6E0C1DF0-0D1A-4FC3-8D11-8848A445193C} = {186786F3-4CF8-4903-958B-63FA44C1CD29}
+		{0768DB18-20CE-40C2-8CC6-C3AF7034DEF3} = {186786F3-4CF8-4903-958B-63FA44C1CD29}
+		{D3F3C38E-F7BA-45AB-90E3-60F667B02906} = {82910032-BE11-45AD-9ADB-5907A40E952A}
+		{0EBC9BC9-285B-4AD3-9B9F-5BCB3A4DB34A} = {186786F3-4CF8-4903-958B-63FA44C1CD29}
+		{9CF7E8C6-2353-47CA-B6AA-DE008AA63DCC} = {186786F3-4CF8-4903-958B-63FA44C1CD29}
+		{523FC5B2-F4B2-417B-BA84-4A8E4DA53D26} = {8B52A28A-5696-4140-81A0-B1BAAD25F14C}
+		{537C607E-C1F3-457B-83DC-763EB2CE0295} = {0F1714F3-5FE8-4765-9FC4-553DA43D752F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9E8060DF-1DC9-4FC8-BA30-593D3F6A43DF}

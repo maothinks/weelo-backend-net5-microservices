@@ -1,5 +1,8 @@
 ﻿namespace Weelo.Microservices.Properties.Domain.DTOS
 {
+    /// <summary>
+    /// Contains the properties for Pagination and Filtering
+    /// </summary>
     public class ParamsDTO
     {
         private const int _maxItemsPerpage = 50;

@@ -73,10 +73,28 @@
       "UpstreamHttpMethod": [ "PUT", "GET", "DELETE" ],
       "AuthenticationOptions": {
         "AuthenticationProviderKey": "Bearer"
-      },
-      "RouteClaimsRequirement": {
-        "Role": "admin"
       }
+      //,"RouteClaimsRequirement": {
+      //  "Role": "admin"
+      //}
+    },
+    {
+      "DownstreamPathTemplate": "/users/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44302
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/users/{id}",
+      "UpstreamHttpMethod": [ "PUT", "GET", "DELETE" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer"
+      }
+      //,"RouteClaimsRequirement": {
+      //  "Role": "admin"
+      //}
     },
     {
       "DownstreamPathTemplate": "/users/register",
@@ -116,6 +134,22 @@
       "AuthenticationOptions": {
         "AuthenticationProviderKey": "Bearer"
       }
+    },
+    {
+      "DownstreamPathTemplate": "/api/NotifyViews",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44305
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/NotifyViews",
+      "UpstreamHttpMethod": [ "POST", "GET" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer"
+      },
+      "DangerousAcceptAnyServerCertificateValidator": true
     }
   ],
   "GlobalConfiguration": {

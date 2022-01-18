@@ -10,6 +10,8 @@ namespace Weelo.Microservices.Properties.Domain.Interfaces
 
         Task<TPaginationMetadata> GetAllMetadataAsync(TParams paramsDto);
 
+        Task<IList<TEntity>> GetAllByParentIdAsync(Guid entityId);
+
         Task<TEntity> GetByIdAsync(Guid entityId);
     }
 }

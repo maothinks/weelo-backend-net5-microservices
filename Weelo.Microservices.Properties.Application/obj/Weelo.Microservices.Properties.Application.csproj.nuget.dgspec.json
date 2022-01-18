@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Weelo\\Microservices\\Weelo.Microservices.Properties.Application\\Weelo.Microservices.Properties.Application.csproj": {}
+    "C:\\Users\\User\\Desktop\\WeeloGit\\weelo-backend-net5-microservices\\Weelo.Microservices.Properties.Application\\Weelo.Microservices.Properties.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Weelo\\Microservices\\Weelo.Microservices.Properties.Application\\Weelo.Microservices.Properties.Application.csproj": {
+    "C:\\Users\\User\\Desktop\\WeeloGit\\weelo-backend-net5-microservices\\Weelo.Microservices.Properties.Application\\Weelo.Microservices.Properties.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Weelo\\Microservices\\Weelo.Microservices.Properties.Application\\Weelo.Microservices.Properties.Application.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\WeeloGit\\weelo-backend-net5-microservices\\Weelo.Microservices.Properties.Application\\Weelo.Microservices.Properties.Application.csproj",
         "projectName": "Weelo.Microservices.Properties.Application",
-        "projectPath": "C:\\Users\\User\\Desktop\\Weelo\\Microservices\\Weelo.Microservices.Properties.Application\\Weelo.Microservices.Properties.Application.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\WeeloGit\\weelo-backend-net5-microservices\\Weelo.Microservices.Properties.Application\\Weelo.Microservices.Properties.Application.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Weelo\\Microservices\\Weelo.Microservices.Properties.Application\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\WeeloGit\\weelo-backend-net5-microservices\\Weelo.Microservices.Properties.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -32,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\Weelo\\Microservices\\Weelo.Microservices.Properties.Domain\\Weelo.Microservices.Properties.Domain.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\Weelo\\Microservices\\Weelo.Microservices.Properties.Domain\\Weelo.Microservices.Properties.Domain.csproj"
+              "C:\\Users\\User\\Desktop\\WeeloGit\\weelo-backend-net5-microservices\\Weelo.Microservices.Properties.Domain\\Weelo.Microservices.Properties.Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\WeeloGit\\weelo-backend-net5-microservices\\Weelo.Microservices.Properties.Domain\\Weelo.Microservices.Properties.Domain.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\Weelo\\Microservices\\Weelo.Microservices.Properties.Domain\\Weelo.Microservices.Properties.Domain.csproj": {
+    "C:\\Users\\User\\Desktop\\WeeloGit\\weelo-backend-net5-microservices\\Weelo.Microservices.Properties.Domain\\Weelo.Microservices.Properties.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Weelo\\Microservices\\Weelo.Microservices.Properties.Domain\\Weelo.Microservices.Properties.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\WeeloGit\\weelo-backend-net5-microservices\\Weelo.Microservices.Properties.Domain\\Weelo.Microservices.Properties.Domain.csproj",
         "projectName": "Weelo.Microservices.Properties.Domain",
-        "projectPath": "C:\\Users\\User\\Desktop\\Weelo\\Microservices\\Weelo.Microservices.Properties.Domain\\Weelo.Microservices.Properties.Domain.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\WeeloGit\\weelo-backend-net5-microservices\\Weelo.Microservices.Properties.Domain\\Weelo.Microservices.Properties.Domain.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Weelo\\Microservices\\Weelo.Microservices.Properties.Domain\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\WeeloGit\\weelo-backend-net5-microservices\\Weelo.Microservices.Properties.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -10,13 +10,17 @@ using Weelo.Microservices.Properties.Infrastructure.Data.Contexts;
 
 namespace Weelo.Microservices.Properties.Infrastructure.Data.Repositories
 {
+    /// <summary>
+    /// Implements the CRUD operations for Property
+    /// </summary>
     public class PropertyRepository : IBaseRepository<ParamsDTO, PaginationMetadataDTO, Property, Guid>
     {
         private readonly PropertyContext db;
 
-        public PropertyRepository(PropertyContext _db)
+        public PropertyRepository()
         {
-            db = _db;
+            //db = _db;
+            db = new PropertyContext();
         }
         public async Task<Property> AddAsync(Property entity)
         {
@@ -49,10 +53,8 @@ namespace Weelo.Microservices.Properties.Infrastructure.Data.Repositories
             return await db.Properties.Where(x =>
                 (!string.IsNullOrEmpty(paramsDto.Name)) ? x.Name.Contains(paramsDto.Name) : true
                 && x.Price <= paramsDto.MaxPrice
-                && x.Views <= paramsDto.MaxViews
                 && x.Year <= paramsDto.MaxYear
                 && x.Price >= paramsDto.MinPrice
-                && x.Views >= paramsDto.MinViews
                 && x.Year >= paramsDto.MinYear
             )
                 .Skip((paramsDto.Page - 1) * paramsDto.ItemsPerPage)

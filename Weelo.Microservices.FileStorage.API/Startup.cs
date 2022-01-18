@@ -4,7 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-
+using Weelo.Microservices.FileStorage.API.Services;
 
 namespace Weelo.Microservices.FileStorage.API
 {
@@ -20,12 +20,15 @@ namespace Weelo.Microservices.FileStorage.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<IFirebaseManagerServiceBase, FirebaseManagerService>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Weelo.Microservices.FileStorage.API", Version = "v1" });
             });
+
+            services.AddHealthChecks(); 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -41,6 +44,8 @@ namespace Weelo.Microservices.FileStorage.API
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseHealthChecks("/health");
 
             app.UseAuthorization();
 

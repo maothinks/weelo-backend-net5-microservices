@@ -9,7 +9,6 @@ namespace Weelo.Microservices.AuthAndUsers.API.Entities
         public string FirstName { get; set; }
         public string Username { get; set; }
         public string PhotoPath { get; set; }
-        public DateTime BirthDate { get; set; }
         public string Address { get; set; }
         public bool IsOwner { get; set; }
 

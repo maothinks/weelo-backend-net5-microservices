@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AnDgVjt9/2IdTfnCkIfdCclYpeJgXgMpPZtbSZhY/Jc2v4oJrn3tzb9vJTKHQHe8GyRfPmGjrtRax5VWWGZMZg==",
+  "dgSpecHash": "GPhx15DgkId9VMmx60h/PRHGtdvpS9jH8D1zt08O4iXHPtv0oDoTk66OViYSJH8mOlWxesbn6SXVlN8gdJLA5w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Desktop\\Weelo\\Microservices\\Weelo.Microservices.FileStorage.API\\Weelo.Microservices.FileStorage.API.csproj",
+  "projectFilePath": "C:\\Users\\User\\Desktop\\WeeloGit\\weelo-backend-net5-microservices\\Weelo.Microservices.FileStorage.API\\Weelo.Microservices.FileStorage.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\firebaseauthentication.net\\3.7.2\\firebaseauthentication.net.3.7.2.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\firebasestorage.net\\1.0.3\\firebasestorage.net.1.0.3.nupkg.sha512",

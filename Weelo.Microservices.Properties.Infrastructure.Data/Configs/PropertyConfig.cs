@@ -9,6 +9,9 @@ using Weelo.Microservices.Properties.Domain;
 
 namespace Weelo.Microservices.Properties.Infrastructure.Data.Configs
 {
+    /// <summary>
+    /// Define a new Property table in the Database
+    /// </summary>
     class PropertyConfig : IEntityTypeConfiguration<Property>
     {
         public void Configure(EntityTypeBuilder<Property> builder)

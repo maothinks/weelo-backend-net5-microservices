@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Weelo.Microservices.Properties.Domain.DTOS
 {
+    /// <summary>
+    /// Contains the metadata info about the pagination
+    /// </summary>
     public class PaginationMetadataDTO
     {
         public PaginationMetadataDTO(int totalCount, int currentPage, int itemsPerPage) { 
@@ -17,7 +20,6 @@ namespace Weelo.Microservices.Properties.Domain.DTOS
         public int Currrentpage { get; set; }
         public int TotalCount { get; set; }
         public int TotalPages  { get; set; }
-
         public bool HasPrevious => Currrentpage > 1;
         public bool HasNext => Currrentpage < TotalPages;
 
