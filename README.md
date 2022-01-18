@@ -77,84 +77,6 @@ For tests on local host is recomended use the ports defined in this file to each
 {
   "Routes": [
     {
-      "DownstreamPathTemplate": "/api/properties",
-      "DownstreamScheme": "https",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 44301
-        }
-      ],
-      "UpstreamPathTemplate": "/gateway/properties",
-      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE" ],
-      "AuthenticationOptions": {
-        "AuthenticationProviderKey": "Bearer"
-      }
-    },
-    {
-      "DownstreamPathTemplate": "/api/properties/{id}",
-      "DownstreamScheme": "https",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 44301
-        }
-      ],
-      "UpstreamPathTemplate": "/gateway/properties/{id}",
-      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE" ],
-      "AuthenticationOptions": {
-        "AuthenticationProviderKey": "Bearer"
-      }
-    },
-    {
-      "DownstreamPathTemplate": "/api/propertyImages",
-      "DownstreamScheme": "https",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 44301
-        }
-      ],
-      "UpstreamPathTemplate": "/gateway/propertyImages",
-      "UpstreamHttpMethod": [ "POST" ],
-      "AuthenticationOptions": {
-        "AuthenticationProviderKey": "Bearer"
-      }
-    },
-    {
-      "DownstreamPathTemplate": "/api/propertyImages/GetAllByPropertyId/{id}",
-      "DownstreamScheme": "https",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 44301
-        }
-      ],
-      "UpstreamPathTemplate": "/gateway/propertyImages/GetAllByPropertyId/{id}",
-      "UpstreamHttpMethod": [ "GET" ],
-      "AuthenticationOptions": {
-        "AuthenticationProviderKey": "Bearer"
-      }
-    },
-    {
-      "DownstreamPathTemplate": "/users",
-      "DownstreamScheme": "https",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 44302
-        }
-      ],
-      "UpstreamPathTemplate": "/gateway/users",
-      "UpstreamHttpMethod": [ "PUT", "GET", "DELETE" ],
-      "AuthenticationOptions": {
-        "AuthenticationProviderKey": "Bearer"
-      }
-      //,"RouteClaimsRequirement": {
-      //  "Role": "admin"
-      //}
-    },
-    {
       "DownstreamPathTemplate": "/users/{id}",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
@@ -172,61 +94,11 @@ For tests on local host is recomended use the ports defined in this file to each
       //  "Role": "admin"
       //}
     },
-    {
-      "DownstreamPathTemplate": "/users/register",
-      "DownstreamScheme": "https",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 44302
-        }
-      ],
-      "UpstreamPathTemplate": "/gateway/users/register",
-      "UpstreamHttpMethod": [ "POST" ]
-    },
-    {
-      "DownstreamPathTemplate": "/users/authenticate",
-      "DownstreamScheme": "https",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 44302
-        }
-      ],
-      "UpstreamPathTemplate": "/gateway/users/authenticate",
-      "UpstreamHttpMethod": [ "POST" ]
-    },
-    {
-      "DownstreamPathTemplate": "/api/images/UploadImage",
-      "DownstreamScheme": "https",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 44303
-        }
-      ],
-      "UpstreamPathTemplate": "/gateway/images/UploadImage",
-      "UpstreamHttpMethod": [ "POST" ],
-      "AuthenticationOptions": {
-        "AuthenticationProviderKey": "Bearer"
-      }
-    },
-    {
-      "DownstreamPathTemplate": "/api/NotifyViews",
-      "DownstreamScheme": "https",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 44305
-        }
-      ],
-      "UpstreamPathTemplate": "/gateway/NotifyViews",
-      "UpstreamHttpMethod": [ "POST", "GET" ],
-      "AuthenticationOptions": {
-        "AuthenticationProviderKey": "Bearer"
-      },
-      "DangerousAcceptAnyServerCertificateValidator": true
-    }
+	.
+	.
+	.
+	.
+	.
   ],
   "GlobalConfiguration": {
     "BaseUrl": "https://localhost:44300"
@@ -326,14 +198,15 @@ This microservice is in charge of send notifications to all connected client (Re
 This file contais the parameters for RabbitMQ server and Signal End Point (React Web App)
 
 ```javascript
- "SignalR": {
+"SignalR": {
     "AllowOrigin": "http://localhost:9000",
     "EndPoint": "/weelo/properties"
   },
   "RabbitMQ": {
     "Host": "amqp://guest:guest@localhost:5672",
     "NotifyViewQueue": "weelo-notify-view-client"
-  }```
+  }
+```
 
 ## System Diagram
 
